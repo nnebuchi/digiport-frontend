@@ -1,0 +1,152 @@
+footer {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    background-color: red;
+}
+  
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+    text-decoration: none !important; 
+    }
+  
+  
+  .footer-head {
+        position: relative;
+        color: #fff;
+        padding: 7rem 0;
+        background-color: #141d2a; 
+        margin-top: 20vh;
+    }
+
+    .footer-head .container {
+      position: relative; 
+    }
+
+    .footer-head h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 1.5; 
+    }
+
+    .footer-head .links li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+      display: block; 
+    }
+
+    .footer-head .links li a {
+        color: #666873; 
+    }
+
+    .footer-head .links li a:hover {
+          color: #fff; 
+    }
+
+    .footer-head .social li {
+      display: inline-block;
+      position: relative; 
+    }
+
+    .footer-head .social li a {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        background-color: #8186d5;
+        color: #fff; 
+    }
+
+    .footer-head .social li a > span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); 
+    }
+
+    .footer-head .footer-logo {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: .1rem; 
+    }
+
+    .footer-head .copyright {
+      color: #666873; 
+    }
+
+    .footer-head .cta {
+      -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      padding: 20px;
+      background-color: #8186d5;
+      top: -150px;
+      position: relative; 
+    }
+
+      .footer-head .cta h2, .footer-head .cta h3 {
+        line-height: 1.5; 
+    }
+
+    .footer-head .cta h3 {
+        font-size: 20px;
+     }
+
+
+     .subscribe .form-group {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        position: relative; 
+    }
+        .footer-head .subscribe .form-group input[type="email"] {
+          height: 45px;
+          border: none;
+          background: #e6e6e6; 
+        }
+          .footer-head .subscribe .form-group input[type="email"]:focus, .footer-head .subscribe .form-group input[type="email"]:active {
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none; 
+        }
+          .footer-head .subscribe .form-group input[type="email"]::-webkit-input-placeholder {
+            color: #b3b3b3;
+            font-size: 14px; 
+        }
+          .footer-head .subscribe .form-group input[type="email"]::-moz-placeholder {
+            color: #b3b3b3;
+            font-size: 14px; 
+        }
+          .footer-head .subscribe .form-group input[type="email"]:-ms-input-placeholder {
+            color: #b3b3b3;
+            font-size: 14px;
+         }
+          .footer-head .subscribe .form-group input[type="email"]:-moz-placeholder {
+            color: #b3b3b3;
+            font-size: 14px; 
+        }
+        .footer-head .subscribe .form-group button {
+          position: absolute;
+          border: none;
+          background: none;
+          font-size: 1.5rem;
+          -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+          top: .5rem;
+          right: .3rem;
+          line-height: 0; 
+        }
+          .footer-head .subscribe .form-group button:focus, .footer-head .subscribe .form-group button:active {
+            outline: none; 
+        }
+      
