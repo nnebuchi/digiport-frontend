@@ -9,9 +9,9 @@ const Log = () => {
                   <div style={{textAlign:"center"}}>
                     <h1>Welcome back</h1>
                      <p >Log in to your <span style={{color:"#1e2270",fontWeight:"600"}}> Digiport</span></p>
-                     <div style={{}}>
-                         <input type="text" placeholder="Email or username" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}}/>
-                          <input type="text" placeholder="Password" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} />
+                     <div style={{marginLeft:"25%" }} className="form-group" >
+                         <input type="text" placeholder="Email or username" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} className="form-control" />
+                          <input type="text" placeholder="Password" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} className="form-control" />
                       </div>
                       <Link to="/forgot" className="link">
                       <a href="">Forgot password</a>

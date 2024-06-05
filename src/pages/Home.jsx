@@ -1,38 +1,20 @@
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/images/heroimage.svg';
+import heroImage from '../assets/images/new.jpg';
 import profileImage from '../assets/images/profileImage.avif';
 import './footer.css';
 import digiImage from '../assets/images/digiP.jpg'
 import simpImage from '../assets/images/simp.jpg'
 import jobImage from '../assets/images/job.jpg'
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 const Home = () => {
     return(
         <>
-            <div className="hero " style={{minHeight:'600px'}}>    
-            <h4 style={{paddingLeft:"10px",paddingTop:'10px',fontWeight:"600"}}>DigiPort.</h4>
-                <div className="d-flex justify-content-center" style={{paddingBottom:'80px',}}>
-                    <div className="navbar mt-4 " style={{ position: 'fixed', top: 25, left: 0,zIndex: 1000, }}>
-                        <ul className="d-flex  justify-content-center con pt-2"  style={{listStyle:'none'}}>
-                            <li>Profile</li>
-                            <li>Home</li>
-                            <li>jobs</li>
-                            <li>Create-profile</li>
-                        </ul>
-                        <div className="" style={{width:'20%'}}>
-                        <Link to="/sign" className="link">
-                          <button className="me-3">Sign-up</button>
-                          </Link> 
-                            
-                           <Link to="/log" className="link">
-                          <button className="bn">Login</button>
-                    </Link>  
-                           
-                        </div>
-                    </div>
-                 </div>
+        <div>
+             <Navbar/>
 
-                <div className="section d-flex  mt-5" style={{width:'100%',}}>
+            <div className="hero " style={{minHeight:'600px'}}>   
+                <div className="section d-flex " style={{width:'100%',}}>
                     <div className='left-sec' style={{width:'40%',height:'350px',paddingLeft:'50px'}}>
                         <h3 className="text">
                             Everything you are can be in one simple link
@@ -40,8 +22,8 @@ const Home = () => {
                         <p className="txt">Join us people using <span style={{color:'#0000FF',fontWeight:600}}>DigiPort</span> for link in bio. One link to help you share everything you create, curate and sell on social media profiles and more.</p>
                     </div>
 
-                    <div className="image-con d-flex justify-content-center" style={{width:'60%'}}>
-                     <img src={heroImage} alt='Image' style={{width:'50%'}}/>
+                    <div className="image-con d-flex " style={{width:'60%'}}>
+                     <img src={heroImage} alt='Image' style={{height:"100%"}}/>
                     </div>
                 </div>
             </div>
@@ -58,7 +40,7 @@ const Home = () => {
                     <p style={{fontSize:'15px',fontWeight:'500'}}>Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert.</p>
 
                     <div>
-                        <button className="button">Get Started</button>
+                        <button className="button"style={{borderRadius:'5px'}}>Get Started</button>
                     </div>
                 </div>
             </div>
@@ -97,6 +79,7 @@ const Home = () => {
                 </div>
             </div>
             <Footer/>
+        </div>
         </>
     );
 }

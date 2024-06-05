@@ -9,13 +9,14 @@ const Sign = () => {
                   <div style={{textAlign:"center"}}>
                     <h1>Join Digiport</h1>
                      <p >Sign up for <span style={{color:"#1e2270",fontSize:"20px"}}>free</span></p>
-                     <div style={{}}>
-                         <input type="text" placeholder="Email" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}}/>
-                          <input type="text" placeholder="Password" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} />
-                          <input type="text" placeholder="Repeat password" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} />
+                     <div style={{marginLeft:"25%"}} className="form-group">
+                         <input type="text" placeholder="Email" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} className="form-control"/>
+                          <input type="text" placeholder="Password" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}} className="form-control" />
+                          <input type="text" placeholder="Repeat password" style={{width:"500px",height:"50px",marginBottom:"20px",outline:"none"}}  className="form-control" />
+                         
                       </div>
                     <div style={{}}>  
-                        <button style={{width:"60%",marginTop:"20px",backgroundColor:"rgba(159, 154, 165, 0.493)",marginBottom:"20px"}}>Create account</button>
+                        <button style={{width:"60%",marginTop:"20px",backgroundColor:"rgba(159, 154, 165, 0.493)",marginBottom:"20px",marginLeft:"20px"}}>Create account</button>
                         <p style={{marginBottom:"50px"}}>Already have an account yet? <Link to="/log" className="link">
                           <a href="">Log in</a>
                     </Link>  </p>
