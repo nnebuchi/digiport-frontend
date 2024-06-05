@@ -22,8 +22,8 @@ const Home = () => {
                         <p className="txt">Join us people using <span style={{color:'#0000FF',fontWeight:600}}>DigiPort</span> for link in bio. One link to help you share everything you create, curate and sell on social media profiles and more.</p>
                     </div>
 
-                    <div className="image-con d-flex " style={{width:'60%'}}>
-                     <img src={heroImage} alt='Image' style={{height:"100%"}}/>
+                    <div className="image-con d-flex " style={{width:'60%',paddingLeft:"70px",paddingTop:"30px"}}>
+                     <img src={heroImage} alt='Image' style={{width:"80%",boxShadow:"5px 5px 5px 8px #FF7518", borderBottomRightRadius:"15px"}}/>
                     </div>
                 </div>
             </div>

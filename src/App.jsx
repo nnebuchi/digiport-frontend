@@ -9,6 +9,7 @@ import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 import Bio from './pages/Bio';
 import Social from './pages/Social';
+import Insight from './pages/Insight';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App () {
@@ -23,6 +24,7 @@ function App () {
              <Route path="profile" element={<Profile/>} />
              <Route path="bio" element={<Bio/>} />
              <Route path="social" element={<Social/>} />
+             <Route path="insight" element={<Insight/>} />
           </Routes>
       </BrowserRouter>
   );

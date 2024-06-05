@@ -24,7 +24,7 @@ const Sidebar =()=>{
         </Link>
       </li>
       <li className="link">
-        <Link to="/" className="link">
+        <Link to="/insight" className="link">
           <FontAwesomeIcon icon={faChartLine} style={{marginRight:"10px"}} /> Insights
         </Link>
       </li>

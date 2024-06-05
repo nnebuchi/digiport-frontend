@@ -7,8 +7,8 @@ const Navbar = () => {
                     <h4 style={{paddingLeft:'10px', color:"#1e2270",fontWeight:"600"}}>DigiPort.</h4>
                         <ul className="d-flex  justify-content-center con pt-2 mt-2"  style={{listStyle:'none',textAlign:'center'}}>
                               <li className="link">  <Link to="/" className="link">Home</Link > </li>
-                            <li className="link">  <Link to="/profile" className="link">Profile</Link > </li>
-                            <li className="link">  <Link to="/dash" className="link">Manage-Profile</Link > </li>
+                            <li className="link">  <Link to="/" className="link">Profile</Link > </li>
+                            <li className="link">  <Link to="/" className="link">Manage-Profile</Link > </li>
                         </ul>
                         <div className="" style={{width:'20%'}}>
                         <Link to="/sign" className="link">
