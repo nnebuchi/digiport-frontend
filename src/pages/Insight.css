@@ -1,0 +1,27 @@
+.body{
+    margin-top: 10vh;
+    width: 100%;
+    
+}
+.insight{
+    width: 100%;
+    padding: 10px ;
+    margin-top: 4vh;
+    background-color: #FBFEFB;
+}
+.accordion-item{
+    background-color: #f2f7f2!important;
+    border-bottom: 2px solid #a9aeb4!important ;
+    /* border-radius: 5px!important; */
+}
+.accordion-button{
+     background-color: #FBFEFB !important;
+}
+
+.context{
+    font-weight: 600;
+}
+.cn{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    margin-bottom: 10px;
+}

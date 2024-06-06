@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="section d-flex " style={{width:'100%',}}>
                     <div className='left-sec' style={{width:'40%',height:'350px',paddingLeft:'50px'}}>
                         <h3 className="text">
-                            Everything you are can be in one simple link
+                        Unlock your brand potential in one click.
                         </h3>
                         <p className="txt">Join us people using <span style={{color:'#0000FF',fontWeight:600}}>DigiPort</span> for link in bio. One link to help you share everything you create, curate and sell on social media profiles and more.</p>
                     </div>
@@ -63,7 +63,7 @@ const Home = () => {
                             <img src={digiImage} className="card-img-top" alt="revo"  />
                             <div className="card-body">
                                 <p className="card-text" style={{fontSize:'18px',fontWeight:'600'}}>
-                                    Revolutionize your digital presence with Digiport
+                                    Elevate your digital experience
                                 </p>
                             </div>
                     </div> 
