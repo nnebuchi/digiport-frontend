@@ -7,14 +7,6 @@ import linkdImage from "../assets/images/linkd.png";
 import faceImage from "../assets/images/shit.png";
 
 const Social = () => {
-    const handleCopy = (text) => {
-        navigator.clipboard.writeText(text).then(() => {
-            alert('Copied to clipboard!');
-        }).catch(err => {
-            console.error('Could not copy text: ', err);
-        });
-    }
-
     return (
         <>
             <Navbars />
@@ -35,7 +27,7 @@ const Social = () => {
                             </label>
                             <div className="input-group mb-3">
                                 <input type="text" className="form-control" placeholder="@facebook.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style={{ height: '45px' }} />
-                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} onClick={() => handleCopy('@facebook.com')}>Copy</span>
+                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} >Copy</span>
                             </div>
                         </div>
                         <div className="mb-3">
@@ -43,7 +35,7 @@ const Social = () => {
                             <label htmlFor="Twitter" className="form-label" style={{ fontSize: '18px', fontWeight: '600' }}>Twitter</label>
                             <div className="input-group mb-3">
                                 <input type="text" className="form-control" placeholder="@X.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style={{ height: '45px' }} />
-                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} onClick={() => handleCopy('@X.com')}>Copy</span>
+                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} >Copy</span>
                             </div>
                         </div>
                         <div className="mb-3">
@@ -51,7 +43,7 @@ const Social = () => {
                             <label htmlFor="Linkeldn" className="form-label" style={{ fontSize: '18px', fontWeight: '600' }}>LinkedIn</label>
                             <div className="input-group mb-3">
                                 <input type="text" className="form-control" placeholder="@Linkedln.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style={{ height: '45px' }} />
-                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} onClick={() => handleCopy('@Linkedln.com')}>Copy</span>
+                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} >Copy</span>
                             </div>
                         </div>
                         <div className="mb-3">
@@ -59,7 +51,7 @@ const Social = () => {
                             <label htmlFor="instagram" className="form-label" style={{ fontSize: '18px', fontWeight: '600' }}>Instagram</label>
                             <div className="input-group mb-3">
                                 <input type="text" className="form-control" placeholder="@instagram.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style={{ height: '45px' }} />
-                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} onClick={() => handleCopy('@instagram.com')}>Copy</span>
+                                <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} >Copy</span>
                             </div>
                         </div>
                         <div style={{ float: 'right' }}>
