@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import Navbars from "../components/Navbars";
 import modelImage from "../assets/images/model.jpg";
-import xImage from "../assets/images/x.png"
-import instaImage from "../assets/images/instag.jpeg"
-import linkdImage from "../assets/images/linkd.png"
-import faceImage from "../assets/images/shit.png"
+import xImage from "../assets/images/x.png";
+import instaImage from "../assets/images/instag.jpeg";
+import linkdImage from "../assets/images/linkd.png";
+import faceImage from "../assets/images/download.png";
 const Profile = ()=>{
     return (
         <>
@@ -76,14 +76,14 @@ const Profile = ()=>{
                 <div>
                     <div className="d-flex justify-content-between">
                         <div className="d-flex">
-                            <h5 style={{color:"#1e2270"}}> DigiPort</h5> 
+                            <h5 style={{color:"#FF7518"}}> DigiPort</h5> 
                             <p> (Oct 2023 - May 2024)</p>  
                         </div>
                          
                         <Link> <h6>visit project</h6></Link>
                     </div>
                     <div>
-                        <p style={{backgroundColor:"#f0f0f5"}}>
+                        <p>
                             
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi temporibus fugit eum sed cum repellendus. Adipisci modi debitis quaerat rerum unde minima ea eligendi itaque, ducimus minus atque nisi!.
                         </p>
@@ -93,14 +93,14 @@ const Profile = ()=>{
                 <div>
                     <div className="d-flex justify-content-between">
                         <div className="d-flex">
-                            <h5 style={{color:"#1e2270"}}> Furni</h5> 
+                            <h5 style={{color:"#FF7518"}}> Furni</h5> 
                             <p> (Jan 2023 - March 2024)</p>  
                         </div>
                          
                         <Link> <h6>visit project</h6></Link>
                     </div>
                     <div>
-                        <p style={{backgroundColor:"#f0f0f5"}}>
+                        <p >
                             
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi temporibus fugit eum sed cum repellendus. Adipisci modi debitis quaerat rerum unde minima ea eligendi itaque, ducimus minus atque nisi!.
                         </p>
@@ -110,7 +110,7 @@ const Profile = ()=>{
                 <div>
                     <div className="d-flex justify-content-between">
                         <div className="d-flex">
-                            <h5 style={{color:"#1e2270"}}> Mongo db</h5> 
+                            <h5 style={{color:"#FF7518"}}> Mongo db</h5> 
                             <p> (July 2023 - May 2024)</p>  
                         </div>
                          

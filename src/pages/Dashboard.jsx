@@ -45,7 +45,7 @@ function Dashboard() {
     <>
       <Navbars/>
 
-      <h5 style={{ textAlign: 'center', fontSize: '25px', fontWeight: '600', color: '#1e2270', margin: '10% 3px 30px 3px'}}>
+      <h5 style={{ textAlign: 'center', fontSize: '25px', fontWeight: '600', color: '#1e2270', margin: '5% 3px 30px 3px'}}>
         Corporate Profile
       </h5>
 

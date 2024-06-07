@@ -33,8 +33,8 @@ const Bio = () => {
           fontSize: '25px',
           fontWeight: '600',
           color: '#1e2270',
-          margin: '10% 3px 30px 3px',
-          paddingTop: "20px"
+          margin: '5% 3px 30px 3px',
+         
         }}
       >
         Bio-Data
@@ -91,12 +91,10 @@ const Bio = () => {
             </div>
           </div>
           <div style={{float:'right'}}>
-              <input type="button" value="Submit" style={{backgroundColor:'#1e2270',border:'none', padding:'8px 15px', color:'white',borderRadius:'8px', marginTop:"30px",fontWeight:"600"}} />
-            </div>
+             <input type="button" value="Submit" style={{backgroundColor:'#1e2270',border:'none', padding:'8px 15px', color:'white',borderRadius:'8px', marginTop:"10px",fontWeight:"600"}} />
+          </div>
         </div>
-        
       </div>
-      
       <Footer />
     </>
   );
