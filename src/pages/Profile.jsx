@@ -20,8 +20,8 @@ const Profile = ()=>{
                         
                     </div>
                     <div className="mb-4" style={{marginTop:"5%",marginLeft:"50px"}}>
-                        <h3 style={{fontWeight:"700"}}>Irene backend</h3>
-                         <Link ><h5>bisdope@gmail.com</h5></Link>
+                        <h3 style={{fontWeight:"700"}}>Irene Madubuogor</h3>
+                         <Link ><h5>Irenemadubuogor@gmail.com</h5></Link>
                          <h4>Tel- +234 9038700349</h4>
                          <div className="justify-content-between">
                        <Link to="/social"> <img src={xImage} alt=""  style={{width:"25px", marginRight:"9px"}}/></Link>    
@@ -87,6 +87,10 @@ const Profile = ()=>{
                             
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi temporibus fugit eum sed cum repellendus. Adipisci modi debitis quaerat rerum unde minima ea eligendi itaque, ducimus minus atque nisi!.
                         </p>
+                        <div className="d-flex role-con">
+                            <p  className="fs-6 me-1" style={{fontsize:'30px ', fontWeight:'600'}}>Role: </p>
+                            <p className="" style={{color:"#1e2270", fontWeight:'600'}}> (Frontend Developer)</p>
+                        </div>
                     </div>
                 </div>
 
@@ -104,6 +108,10 @@ const Profile = ()=>{
                             
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi temporibus fugit eum sed cum repellendus. Adipisci modi debitis quaerat rerum unde minima ea eligendi itaque, ducimus minus atque nisi!.
                         </p>
+                        <div className="d-flex role-con">
+                            <p  className="fs-6 me-1" style={{fontsize:'30px ', fontWeight:'600'}}>Role: </p>
+                            <p className="" style={{color:"#1e2270", fontWeight:'600'}}> (Frontend Developer)</p>
+                        </div>
                     </div>
                 </div>
 
@@ -121,6 +129,10 @@ const Profile = ()=>{
                             
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sequi temporibus fugit eum sed cum repellendus. Adipisci modi debitis quaerat rerum unde minima ea eligendi itaque, ducimus minus atque nisi!.
                         </p>
+                        <div className="d-flex role-con">
+                            <p  className="fs-6 me-1" style={{fontsize:'30px ', fontWeight:'600'}}>Role: </p>
+                            <p className="" style={{color:"#1e2270", fontWeight:'600'}}> (Frontend Developer)</p>
+                        </div>
                     </div>
                 </div>
 
@@ -139,11 +151,15 @@ const Profile = ()=>{
                         </div>
                          
                          <div className=" stacks d-flex" style={{width:'40%', flexWrap:'wrap'}}>
-                            <p>Html</p>,
-                            <p>Html</p>,
-                            <p>Html</p>,
-                            <p>Html</p>,
-                            <p>Html</p>,
+                            <p className="me-2">Html</p>
+                            <p className="me-2">CSS</p>
+                            <p className="me-2">Java</p>
+                            <p className="me-2">Javascript</p>
+                            <p className="me-2">Node</p>
+                            <p className="me-2">React.js</p>
+                            <p className="me-2">Phyton</p>
+                            <p className="me-2">PHP</p>
+                            
         
                          </div>
                     </div>
