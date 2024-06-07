@@ -11,6 +11,7 @@ import Bio from './pages/Bio';
 import Social from './pages/Social';
 import Insight from './pages/Insight';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Otp from './pages/Otp';
 
 function App () {
   return (
@@ -25,6 +26,7 @@ function App () {
              <Route path="bio" element={<Bio/>} />
              <Route path="social" element={<Social/>} />
              <Route path="insight" element={<Insight/>} />
+             <Route path="otp" element={<Otp/>} />
           </Routes>
       </BrowserRouter>
   );
