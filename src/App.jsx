@@ -10,6 +10,7 @@ import Profile from './pages/Profile';
 import Bio from './pages/Bio';
 import Social from './pages/Social';
 import Insight from './pages/Insight';
+import New from './pages/New';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App () {
@@ -25,6 +26,7 @@ function App () {
              <Route path="bio" element={<Bio/>} />
              <Route path="social" element={<Social/>} />
              <Route path="insight" element={<Insight/>} />
+             <Route path="new" element={<New/>} />
           </Routes>
       </BrowserRouter>
   );

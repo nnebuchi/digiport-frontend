@@ -34,7 +34,6 @@ const Bio = () => {
           fontWeight: '600',
           color: '#1e2270',
           margin: '5% 3px 30px 3px',
-         
         }}
       >
         Bio-Data
@@ -42,7 +41,7 @@ const Bio = () => {
       <div className="mt-3 d-flex">
         <Sidebar />
         <div style={{ width: "50%", margin: "" }}>
-          <div style={{marginLeft:"30%"}} className="mb-5">
+          <div style={{ marginLeft: "30%" }} className="mb-5">
             <img
               ref={imageRef}
               src={profileImage}
@@ -55,9 +54,9 @@ const Bio = () => {
               }}
               className="img mb-3"
               alt="Profile"
-            /> 
+            />
             <br />
-            <input type="file" ref={inputRef} className="input" style={{marginLeft:"0px"}} />
+            <input type="file" ref={inputRef} className="input" style={{ marginLeft: "0px" }} />
           </div>
           <div>
             <div className="form-group d-flex">
@@ -90,19 +89,26 @@ const Bio = () => {
               </div>
             </div>
           </div>
-          <div style={{float:'right'}}>
-<<<<<<< HEAD
-             <input type="button" value="Submit" style={{backgroundColor:'#1e2270',border:'none', padding:'8px 15px', color:'white',borderRadius:'8px', marginTop:"10px",fontWeight:"600"}} />
+          <div style={{ float: 'right' }}>
+            <input
+              type="button"
+              value="Submit"
+              style={{
+                backgroundColor: '#1e2270',
+                border: 'none',
+                padding: '8px 15px',
+                color: 'white',
+                borderRadius: '8px',
+                marginTop: "10px",
+                fontWeight: "600"
+              }}
+            />
           </div>
-=======
-              <input type="button" value="Submit" style={{backgroundColor:'#1e2270',border:'none', padding:'15px 20px', color:'white',borderRadius:'8px', marginTop:"30px",fontWeight:"600"}} />
-            </div>
->>>>>>> a9a8fd72152b76a6859a2ac6ff305dbce63bbbed
         </div>
       </div>
       <Footer />
     </>
   );
-};
+}
 
 export default Bio;

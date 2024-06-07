@@ -60,3 +60,7 @@ button{
   color: #cecdd0ee;
   margin-right: 30px;
 }
+.error {
+  color: red;
+  font-size: 14px;
+}
