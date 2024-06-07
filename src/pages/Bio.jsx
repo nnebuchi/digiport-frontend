@@ -91,8 +91,13 @@ const Bio = () => {
             </div>
           </div>
           <div style={{float:'right'}}>
+<<<<<<< HEAD
              <input type="button" value="Submit" style={{backgroundColor:'#1e2270',border:'none', padding:'8px 15px', color:'white',borderRadius:'8px', marginTop:"10px",fontWeight:"600"}} />
           </div>
+=======
+              <input type="button" value="Submit" style={{backgroundColor:'#1e2270',border:'none', padding:'15px 20px', color:'white',borderRadius:'8px', marginTop:"30px",fontWeight:"600"}} />
+            </div>
+>>>>>>> a9a8fd72152b76a6859a2ac6ff305dbce63bbbed
         </div>
       </div>
       <Footer />

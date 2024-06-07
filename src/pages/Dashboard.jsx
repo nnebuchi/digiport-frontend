@@ -168,6 +168,29 @@ function Dashboard() {
                     </div>
                   </div>
 
+
+                  <div className="card-body row">
+                    <div>
+                      <div className='col-6 mb-3'>
+                    <h5><label>Link title</label><br /></h5>
+                    <div className='form-group'>
+                      <input type="text" className='form-control' placeholder='' />
+                    </div>
+                  </div>
+
+                  <div className='col-6 mb-3'>
+                    <h5><label>Url</label><br /></h5>
+                    <div className='form-group'>
+                      <input type="text" className='form-control' placeholder='' />
+                    </div>
+                  </div>
+                    </div>
+                    
+                  <button type="button" className="add-button" id="add-button" style={{width:"150px",borderRadius:"10px",marginLeft:"450px"}}>click to add link</button>
+              
+
+                  </div>
+                  
                   <div className='mt-4 col-12'>
                     <input type="checkbox" style={{ marginRight: "15px" }} id='checkbox' onChange={disableProjectEndDate} />
                     I'm currently working here
