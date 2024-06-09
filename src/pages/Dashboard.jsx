@@ -45,6 +45,8 @@ function Dashboard() {
     <>
       <Navbars/>
 
+      <h4 className='pt-4' style={{marginRight:'40px', float:'right' }}>Welcome back <span style={{color:'#1e2270',fontSize:'19px', fontWeight:'500'}}>Irene Madubuogor</span></h4>
+
       <h5 style={{ textAlign: 'center', fontSize: '25px', fontWeight: '600', color: '#1e2270', margin: '5% 3px 30px 3px'}}>
         Corporate Profile
       </h5>

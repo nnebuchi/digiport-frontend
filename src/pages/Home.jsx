@@ -13,11 +13,11 @@ const Home = () => {
         <div>
              <Navbar/>
 
-            <div className="hero " style={{minHeight:'600px'}}>   
+            <div className="hero pt-4" style={{minHeight:'650px'}}>   
                 <div className="section d-flex " style={{width:'100%',}}>
                     <div className='left-sec' style={{width:'40%',height:'350px',paddingLeft:'50px'}}>
                         <h3 className="text">
-                        Unlock your brand potential in one click.
+                         Unlock your brand potential in one click.
                         </h3>
                         <p className="txt">Join us people using <span style={{color:'#0000FF',fontWeight:600}}>DigiPort</span> for link in bio. One link to help you share everything you create, curate and sell on social media profiles and more.</p>
                     </div>
@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='body d-flex' style={{width:'100%'}}>
+            <div className='body d-flex ' style={{width:'100%', height:'400px'}}>
                 <div style={{width:'40%'}}>
                  <img src={profileImage} alt='image' style={{paddingLeft:'40px',paddingTop:'30px'}} />
                 </div>
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
             </div>
             
-             <h3 style={{textAlign:'center', marginTop:'10vh', fontWeight:'600'}}>Explore our powerful yet user-friendly features </h3>
+             <h3 style={{textAlign:'center', marginTop:'20%', fontWeight:'600'}}>Explore our powerful yet user-friendly features </h3>
 
             <div className='container-fluid mb-4' style={{marginTop:'10vh', backgroundColor:'#f0f0f5', height:'380px', cursor:'pointer' }}>
                 <div className='row justify-content-around pt-4'>

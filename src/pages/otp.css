@@ -1,0 +1,56 @@
+div{
+      background-color: #f0f0f5;
+      height: 700px;
+}
+.otpDiv{
+    margin-top: 50px;
+    height: 700px;
+    /* padding-bottom: 5px; */
+  
+}
+.otpcontentdiv{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    border-radius: 8px;
+    text-align: center;
+}
+.mail{
+    width: 180px;
+    /* height: 100px; */
+}
+.otp-confirm-msg{
+    font-size: 22px;
+}
+.form{
+    margin-top: 5%;
+}
+.otp-input{
+    width: 65px;
+    height: 54px;
+    border: 1px solid#a5a5a5;
+    border-radius: 3px;
+    color: #1e2270;
+    font-weight: 600px;
+    font-size: 20px;
+    text-align: center;
+}
+.otp-input:focus {
+    border: 1px solid #090c42;
+    outline: none; /* This removes the default focus outline */
+  }
+.button{
+    margin-top: 6%;
+}
+.button{
+    padding: 14px 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #090c42;
+    font-weight: 600;
+}
+.cancel{
+    background-color:transparent;   
+    border: 1px solid #090c42;
+    color: #090c42;
+}

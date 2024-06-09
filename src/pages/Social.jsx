@@ -43,6 +43,7 @@ const Social = () => {
                         <div className="mb-3">
                             <img src={xImage} alt="" style={{ width: "25px", marginRight: "9px" }} />
                             <label htmlFor="Twitter" className="form-label" style={{ fontSize: '18px', fontWeight: '600' }}>Twitter</label>
+                            
                             <div className="input-group mb-3">
                                 <input type="text" ref={twitterRef} className="form-control" placeholder="@X.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style={{ height: '45px' }} />
                                 <span className="input-group-text" id="basic-addon2" style={{ backgroundColor: "#d5dfe9", cursor: 'pointer' }} onClick={() => copyText(twitterRef)}>Copy</span>
