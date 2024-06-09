@@ -50,7 +50,7 @@ const Bio = () => {
                 width: "150px",
                 borderRadius: "50%",
                 objectFit: "cover",
-                background: "#dfdfdf"
+                background: "#dfdfdf",
               }}
               className="img mb-3"
               alt="Profile"

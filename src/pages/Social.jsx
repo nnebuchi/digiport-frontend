@@ -1,15 +1,13 @@
-
 import React, { useRef } from 'react';
 import Navbars from "../components/Navbars";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding, faUser, faShareAlt, faChartLine, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
-import xImage from "../assets/images/x.png"
-import instaImage from "../assets/images/instag.jpeg"
-import linkdImage from "../assets/images/linkd.png"
-import faceImage from "../assets/images/download.png"
-const Social = ()=>{
+import xImage from "../assets/images/x.png";
+import instaImage from "../assets/images/instag.jpeg";
+import linkdImage from "../assets/images/linkd.png";
+import faceImage from "../assets/images/download.png";
+
+const Social = () => {
     const facebookRef = useRef(null);
     const twitterRef = useRef(null);
     const linkedinRef = useRef(null);

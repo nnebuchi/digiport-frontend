@@ -12,6 +12,7 @@ import Social from './pages/Social';
 import Insight from './pages/Insight';
 import New from './pages/New';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Otp from './pages/Otp';
 
 function App () {
   return (
@@ -27,6 +28,8 @@ function App () {
              <Route path="social" element={<Social/>} />
              <Route path="insight" element={<Insight/>} />
              <Route path="new" element={<New/>} />
+             <Route path="otp" element={<Otp/>} />
+
           </Routes>
       </BrowserRouter>
   );
