@@ -8,12 +8,11 @@ const New = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (input1 === input2) {
-            alert('The inputs match!');
             setInput1('');
             setInput2('');
             setError('');
         } else {
-            setError('No you get this abi .');
+            setError('No be you get this account abi .');
         }
     };
 
