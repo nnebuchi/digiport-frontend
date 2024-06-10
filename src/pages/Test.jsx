@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import profileImage from '../assets/images/profile.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
-const Bio = () => {
+const Test = () => {
   const imageRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -27,7 +27,7 @@ const Bio = () => {
 
   return (
     <>
-      <Navbars />
+     
       <h5
         style={{
           textAlign: 'center',
@@ -107,9 +107,9 @@ const Bio = () => {
           </div>
         </div>
       </div>
-      <Footer />
+     
     </>
   );
 }
 
-export default Bio;
+export default Test;

@@ -13,6 +13,7 @@ import Insight from './pages/Insight';
 import New from './pages/New';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Otp from './pages/Otp';
+import Test from './pages/Test';
 
 function App () {
   return (
@@ -29,7 +30,7 @@ function App () {
              <Route path="insight" element={<Insight/>} />
              <Route path="new" element={<New/>} />
              <Route path="otp" element={<Otp/>} />
-
+             <Route path="test" element={<Test/>} />
           </Routes>
       </BrowserRouter>
   );

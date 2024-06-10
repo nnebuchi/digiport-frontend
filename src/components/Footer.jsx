@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 const footer = () => {
   return (
     <footer className="footer-head ">

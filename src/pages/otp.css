@@ -1,7 +1,4 @@
-div{
-      background-color: #f0f0f5;
-      height: 700px;
-}
+
 .otpDiv{
     margin-top: 50px;
     height: 700px;
@@ -37,7 +34,7 @@ div{
 }
 .otp-input:focus {
     border: 1px solid #090c42;
-    outline: none; /* This removes the default focus outline */
+    outline: none;
   }
 .button{
     margin-top: 6%;
